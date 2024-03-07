@@ -1,29 +1,44 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Tweet } from './components/Tweet'
+
 
 import './global.css'
 
+import { Tweet } from './components/Tweet'
+import { Sidebar } from './components/Sidebar'
+import { Header } from './components/Header'
+import { Separetor } from './components/Separator'
+
+const tweets = [
+  'Paipai quero soltar um PIDO!!',
+  'PATCHON!!!!',
+  'Eu escutei!'
+]
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <div>
-      <Tweet user="Bruna">
-      Velha por aqui
-      </Tweet>
-      
-      <Tweet user="Luna" likes= {10} >
-      Down por aqui
-      </Tweet>
-      
-      <Tweet user="Peluzzo">
-      Mucilon por aqui
-      </Tweet>
+    <div className="layout">
+      <Sidebar  />
 
-      <Tweet user="Maria">
-      Estressada por aqui
-       </Tweet>
+        <div className="content">
+          <main className="timeline">
+            <Header title= "Home"/>
 
-      <Tweet user="caruso">Test </Tweet>      
+            <form className='new-tweet-form'>
+              <label htmlFor="tweet">
+                <img src="https://github.com/caruso013.png" alt="Pedro Domingos" />
+                <textarea id="tweet" placeholder='What´s happening?'/>
+              </label>
+
+              <button type='submit'>Tweet</button>
+            </form>
+            <Separetor />
+
+            {tweets.map(tweet =>{
+              return<Tweet key={tweet} content={tweet} />
+            }) }
+          </main>
+        </div>
     </div>
   </React.StrictMode>,
 )
