@@ -18,7 +18,7 @@ UI Clone - Twitter Responsive
 
 ## Participants
 
-[<img src="https://avatars3.githubusercontent.com/u/10366880?s=460&v=4" width="75px;"/>](https://github.com/guilhermerodz)
+[<img src="https://avatars.githubusercontent.com/u/110793515?v=4" width="75px;"/>](https://github.com/caruso013)
 
 [Pedro Domingos](https://github.com/caruso013)
 
