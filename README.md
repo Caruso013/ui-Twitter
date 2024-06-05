@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+<h1 align="center">
+UI Clone - Twitter Responsive
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">Responsive Twitter UI Clone (partial) for study purposes.</p>
+<p align="center">Deployed <a href="https://rocketseat-twitter-clone.netlify.app/">here</a>.</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="https://github.com/Rocketseat/youtube-clone-twitter/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/rocketseat/youtube-clone-twitter?color=%236633cc&logoColor=%236633cc&style=flat" alt="Contributors">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/github/license/rocketseat/youtube-clone-twitter?color=%236633cc&logo=mit" alt="License">
+  </a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<hr>
 
-## Expanding the ESLint configuration
+## Participants
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[<img src="https://avatars3.githubusercontent.com/u/10366880?s=460&v=4" width="75px;"/>](https://github.com/guilhermerodz)
 
-- Configure the top-level `parserOptions` property like this:
+[Guilherme Rodz](https://github.com/guilhermerodz)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Techs
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [x] React.js
+- [x] Styled Components
+- [x] TypeScript
+
+## Ideas to implement
+
+- [ ] Create new routes with React Router (e.g. Initial page)
+- [ ] Personal back-end integration:
+  - [ ] User registry
+  - [ ] Tweet management
+  - [ ] Mentions
+  - [ ] Direct messages
+  - [ ] And more...
+
+## Usage
+
+1. Run `npm install` or `yarn install`.<br />
+2. Run `yarn start` and access `http://localhost:3000`.<br />
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
