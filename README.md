@@ -20,7 +20,7 @@ UI Clone - Twitter Responsive
 
 [<img src="https://avatars3.githubusercontent.com/u/10366880?s=460&v=4" width="75px;"/>](https://github.com/guilhermerodz)
 
-[Guilherme Rodz](https://github.com/guilhermerodz)
+[Pedro Domingos](https://github.com/caruso013)
 
 ## Techs
 
